@@ -1,0 +1,75 @@
+html {
+    font-size: 62.5%;
+     box-sizing: border-box;
+     font-family: 'Inconsolata', monospace;
+     font-family: 'Space Mono', monospace;
+ }
+ 
+ *, *:before, *::after {
+     box-sizing: inherit;
+ }
+
+ 
+img {
+    max-width: 100%;
+} 
+
+  .contenedor {
+   display: flex; 
+   max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+ }
+
+
+ .classDiv  h2 {
+    font-family: "Space Mono";
+    font-size: 6.4rem;
+ }
+
+ .classDiv p {
+    font-size: 2.4rem;
+ }
+
+ .classEnlace {
+    margin-top: 50px;
+ }
+ .classEnlace a {
+    font-family: "Space Mono";
+    font-weight: 700;
+    background-color: #333333;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 15px;
+ }
+
+@media (max-width: 768px) {
+    .dos-columnas {
+        display: block;
+        text-align: center;
+       }
+
+   h1 {
+      text-align: center;
+   }
+
+   .classEnlaceChi {
+      display: block;
+      margin: 0 auto;
+      width: 90%;
+   }
+}
+
+.classFooter {
+  font-size: 1.5rem;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #c4c2c2;
+  color: #000000;
+  text-align: center;
+  margin-top: 150px;
+  text-transform: uppercase;
+}
+
